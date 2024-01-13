@@ -14,7 +14,7 @@ export default function AccountMenu() {
                 </Button>
             </DropdownMenuTrigger>
 
-            <DropdownMenuContent alingn="end" className="w-56">
+            <DropdownMenuContent align="end" className="w-56">
                 <DropdownMenuLabel className="flex flex-col">
 
                     <span>Vinicius Costa</span>
