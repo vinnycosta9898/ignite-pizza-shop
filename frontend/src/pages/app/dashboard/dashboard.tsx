@@ -4,6 +4,7 @@ import { MonthRevenueCard } from './components/month-revenue-card'
 import { MonthOrderAmountCard } from './components/month-orders-amount-card'
 import { DayOrderAmountCard } from './components/day-orders-amount-card'
 import { MonthCancelledAmountCard } from './components/month-canceled-orders-amoun'
+import { RevenueChart } from './components/revenue-chart'
 
 export function DashBoard() {
     return (
@@ -19,6 +20,10 @@ export function DashBoard() {
                     <MonthOrderAmountCard/>
                     <DayOrderAmountCard/>
                     <MonthCancelledAmountCard/>
+                </div>
+
+                <div className='grid grid-cols-9 gap-4'>
+                    <RevenueChart/>
                 </div>
             </div>
         </>
