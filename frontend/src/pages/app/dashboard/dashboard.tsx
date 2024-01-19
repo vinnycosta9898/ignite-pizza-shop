@@ -5,6 +5,7 @@ import { MonthOrderAmountCard } from './components/month-orders-amount-card'
 import { DayOrderAmountCard } from './components/day-orders-amount-card'
 import { MonthCancelledAmountCard } from './components/month-canceled-orders-amoun'
 import { RevenueChart } from './components/revenue-chart'
+import { PopularRevenueChart } from './components/popular-products-chart'
 
 export function DashBoard() {
     return (
@@ -24,6 +25,7 @@ export function DashBoard() {
 
                 <div className='grid grid-cols-9 gap-4'>
                     <RevenueChart/>
+                    <PopularRevenueChart/>
                 </div>
             </div>
         </>
