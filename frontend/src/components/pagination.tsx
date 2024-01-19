@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable prettier/prettier */
 import {
     ChevronLeft,
     ChevronRight,
@@ -7,7 +9,6 @@ import {
 
 import { Button } from './ui/button'
 
-/* eslint-disable prettier/prettier */
 export interface PaginationProps {
     pageIndex: number
     totalCount: number
